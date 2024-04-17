@@ -7,17 +7,6 @@ body {
   background-color: #fdfdff;
 }
 
-.blog-article h2,
-.contacts h2 {
-  font-size: 24px;
-  line-height: 34px;
-  text-decoration: underline;
-  text-decoration-color: #00c6bd;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 15px;
-  text-underline-position: under;
-}
-
 .site-navigation-item a {
   font-size: 14px;
   line-height: 18px;
@@ -34,19 +23,40 @@ body {
   text-transform: uppercase;
 }
 
-.blog-article p.time {
+.blog-article h2 {
+  font-size: 24px;
+  line-height: 34px;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.time {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
-li.contact-item {
+.contacts h2 {
+  font-size: 24px;
+  line-height: 34px;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.contact-item {
   font-size: 16px;
   line-height: 22px;
 }
 
 .contact-item h3 {
   font-size: 16px;
+  line-height: 22px;
 }
 
 .contact-item address {
@@ -58,18 +68,13 @@ li.contact-item {
 }
 
 .main-footer {
-  border-top: 1px solid rgba(22, 49, 82, 0.1);
-}
-
-.policy,
-.copyright {
   font-size: 10px;
   line-height: 12px;
 }
 
-.policy a {
-  color: #163152;
-  text-decoration: none;
+.footer-navigation-topics {
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .footer-navigation-topic h2 {
@@ -79,8 +84,11 @@ li.contact-item {
 }
 
 .footer-navigation-item a {
-  font-size: 14px;
-  line-height: 16px;
+  color: #163152;
+  text-decoration: none;
+}
+
+.policy a {
   color: #163152;
   text-decoration: none;
 }
