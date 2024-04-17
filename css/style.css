@@ -27,3 +27,9 @@ h2 {
   line-height: 60px;
   text-transform: uppercase;
 }
+
+.blog-article p.time {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
