@@ -38,3 +38,20 @@ h2 {
   line-height: 18px;
   text-transform: uppercase;
 }
+
+li.contact-item {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.contact-item h3 {
+  font-size: 16px;
+}
+
+.contact-item address {
+  font-style: normal;
+}
+.contact-item a {
+  color: #163152;
+  text-decoration: none;
+}
