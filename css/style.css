@@ -19,3 +19,11 @@ h2 {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.hero h1 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
