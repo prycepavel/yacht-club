@@ -33,15 +33,10 @@ body {
   text-underline-position: under;
 }
 
-.time {
+.blog-article-date {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-}
-
-.blog-news {
-  margin: 0 auto;
-  width: 770px;
 }
 
 .blog-news h2 {
@@ -55,45 +50,52 @@ body {
   text-underline-position: under;
 }
 
-.blog-news-desc {
+.post-img figcaption {
+  font-size: 16px;
   line-height: 19px;
   color: #8693a4;
 }
 
-.blog-news h3 {
+.post h3 {
   font-size: 22px;
   line-height: 26px;
 }
 
-.blog-news-description {
+.post p {
   font-size: 18px;
   line-height: 26px;
 }
 
-.blog-news-subtitle {
+.post h4 {
   font-size: 20px;
   line-height: 26px;
 }
 
-.news-items {
+.post ul {
   font-size: 18px;
   line-height: 26px;
 }
 
-.blog-news-blockquote {
+.post ins {
+  text-decoration: none;
+}
+
+.post blockquote {
+  font-weight: bold;
   font-size: 26px;
   line-height: 36px;
-  font-weight: 700;
-  padding-left: 20px;
-  border-left: 2px solid #00c6bd;
 }
 
-.blog-news-name {
+.post-meta a {
+  font-size: 16px;
   line-height: 19px;
-  font-weight: 700;
+  font-weight: bold;
+  color: #163152;
+  text-decoration: none;
 }
 
-.blog-news-time {
+.post-meta time {
+  font-size: 16px;
   line-height: 19px;
   color: #8693a4;
 }
