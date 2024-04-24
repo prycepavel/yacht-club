@@ -5,6 +5,7 @@ body {
   line-height: 24px;
   color: #163152;
   background-color: #fdfdff;
+  margin: 0;
 }
 
 .site-navigation-item a {
@@ -152,4 +153,35 @@ body {
 .policy a {
   color: #163152;
   text-decoration: none;
+}
+
+.header {
+  width: 1225px;
+  margin: 0 auto;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 270px;
+}
+
+.logo {
+  width: 64px;
+}
+
+.user-profile {
+  width: 16px;
+  margin-left: auto;
+}
+
+.main-nav .logo {
+  margin-right: 471px;
 }
