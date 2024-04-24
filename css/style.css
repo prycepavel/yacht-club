@@ -185,3 +185,9 @@ body {
 .main-nav .logo {
   margin-right: 471px;
 }
+
+.main-content {
+  width: 1225px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
