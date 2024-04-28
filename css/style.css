@@ -191,3 +191,13 @@ body {
   margin: 0 auto;
   padding: 0 55px;
 }
+
+.hero {
+  margin-bottom: 120px;
+}
+
+.hero h1 {
+  margin-top: 0;
+  margin-left: 70px;
+  margin-bottom: 40px;
+}
