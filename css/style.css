@@ -53,6 +53,12 @@ body {
   text-decoration-thickness: 2px;
   text-underline-offset: 15px;
   text-underline-position: under;
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.post-img {
+  margin: 0;
 }
 
 .post-img figcaption {
@@ -221,6 +227,7 @@ body {
 .blog-article-2 {
   margin-bottom: 120px;
   flex-direction: row-reverse;
+  text-align: right;
 }
 
 .blog-article-content {
@@ -229,4 +236,10 @@ body {
 
 .blog-article-img {
   width: 600px;
+}
+
+.blog-news {
+  width: 770px;
+  margin: 0 auto;
+  margin-bottom: 120px;
 }
