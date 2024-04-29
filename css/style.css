@@ -32,12 +32,16 @@ body {
   text-decoration-thickness: 2px;
   text-underline-offset: 15px;
   text-underline-position: under;
+  margin-top: 0;
+  margin-bottom: 35px;
 }
 
 .blog-article-date {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .blog-news h2 {
@@ -200,4 +204,29 @@ body {
   margin-top: 0;
   margin-left: 70px;
   margin-bottom: 40px;
+}
+
+.blog-article {
+  display: flex;
+  justify-content: space-between;
+  width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-article-1 {
+  margin-bottom: 100px;
+}
+
+.blog-article-2 {
+  margin-bottom: 120px;
+  flex-direction: row-reverse;
+}
+
+.blog-article-content {
+  width: 400px;
+}
+
+.blog-article-img {
+  width: 600px;
 }
